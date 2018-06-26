@@ -11,11 +11,9 @@ module.exports = {
 
     nome: { type: 'string' },
 
-    status: { type: 'string' },
+    //data: { type: 'string', columnType: 'date' },
 
-    data: { type: 'string', columnType: 'date' },
-
-    hora: { type: 'string', columnType: 'time' },
+   // hora: { type: 'string', columnType: 'time' },
 
     jogo: { model: 'Jogo' },
 
